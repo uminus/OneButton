@@ -17,6 +17,7 @@
  */
 
 #include "OneButtonTiny.h"
+#include "millis.h"
 
 // ----- Initialization and Default Values -----
 

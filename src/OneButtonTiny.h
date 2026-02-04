@@ -12,7 +12,14 @@
 #ifndef OneButtonTiny_h
 #define OneButtonTiny_h
 
-#include "Arduino.h"
+#include "ch32fun.h"
+
+#define LOW FUN_LOW
+#define HIGH FUN_HIGH
+#define pinMode funPinMode
+#define digitalRead funDigitalRead
+#define INPUT_PULLUP GPIO_CNF_IN_PUPD
+#define INPUT GPIO_CNF_IN_FLOATING
 
 // ----- Callback function types -----
 
